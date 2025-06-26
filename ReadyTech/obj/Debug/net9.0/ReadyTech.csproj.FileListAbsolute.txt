@@ -18,6 +18,7 @@ C:\Users\alenc\Desktop\ReadyTech\ReadyTech\obj\Debug\net9.0\ReadyTech.AssemblyIn
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech\obj\Debug\net9.0\ReadyTech.csproj.CoreCompileInputs.cache
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech\obj\Debug\net9.0\ReadyTech.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech\obj\Debug\net9.0\ReadyTech.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alenc\Desktop\ReadyTech\ReadyTech\obj\Debug\net9.0\ReadyTech.sourcelink.json
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech\obj\Debug\net9.0\scopedcss\bundle\ReadyTech.styles.css
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech\obj\Debug\net9.0\staticwebassets.development.json

@@ -18,3 +18,8 @@ wwwroot/
 
 # Ignore global tools
 dotnet-tools.json
+
+# Ignore secrets and appsettings
+appsettings.Development.json
+appsettings.Production.json
+secrets.json

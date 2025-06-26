@@ -290,6 +290,7 @@ C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\refs\System.Xml.XPath.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\refs\System.Xml.XPath.XDocument.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\refs\WindowsBase.dll
+C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\Castle.Core.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Testing.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\Microsoft.AspNetCore.TestHost.dll
@@ -330,6 +331,7 @@ C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\Microsoft.TestPlatform.Utilities.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\Moq.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -413,11 +415,10 @@ C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\obj\Debug\net9
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\obj\Debug\net9.0\IntegrationTests.AssemblyInfoInputs.cache
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\obj\Debug\net9.0\IntegrationTests.AssemblyInfo.cs
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\obj\Debug\net9.0\IntegrationTests.csproj.CoreCompileInputs.cache
+C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\obj\Debug\net9.0\IntegrationTests.sourcelink.json
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\obj\Debug\net9.0\Integrat.CDF5F225.Up2Date
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\obj\Debug\net9.0\IntegrationTests.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\obj\Debug\net9.0\refint\IntegrationTests.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\obj\Debug\net9.0\IntegrationTests.pdb
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\obj\Debug\net9.0\IntegrationTests.genruntimeconfig.cache
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\obj\Debug\net9.0\ref\IntegrationTests.dll
-C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\Castle.Core.dll
-C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\IntegrationTests\bin\Debug\net9.0\Moq.dll

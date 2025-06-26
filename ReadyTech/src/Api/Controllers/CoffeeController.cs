@@ -16,11 +16,11 @@ public class CoffeeController : ControllerBase
 
     [HttpGet]
     [Route("brew-coffee")]
-    public IActionResult BrewCoffee()
+    public async Task<IActionResult> BrewCoffee()
     {
         try
         {
-            var result = _coffeeService.BrewCoffee();
+            var result = await _coffeeService.BrewCoffee();
             return StatusCode(result.StatusCode, result.Response);
         }
         catch (Exception ex)

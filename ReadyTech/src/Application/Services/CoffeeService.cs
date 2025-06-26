@@ -4,6 +4,11 @@ namespace ReadyTech.src.Application.Services;
 public class CoffeeService : ICoffeeService
 {
     private static int CallCount = 0;
+    private readonly IOpenWeatherMapService _openWeatherMapService;
+    public CoffeeService(IOpenWeatherMapService openWeatherMapService)
+    {
+        _openWeatherMapService = openWeatherMapService;
+    }
 
     protected virtual bool IsAprilFools()
     {
@@ -11,9 +16,11 @@ public class CoffeeService : ICoffeeService
         return today.Month == 4 && today.Day == 1;
     }
 
-    public (int StatusCode, object? Response) BrewCoffee()
+    public async Task<(int StatusCode, object? Response)> BrewCoffee()
     {
         CallCount++;
+
+        var result = await _openWeatherMapService.GetCurrentTemperatureAsync("Melbourne");
 
         if (CallCount % 5 == 0)
         {
@@ -27,7 +34,7 @@ public class CoffeeService : ICoffeeService
 
         var response = new
         {
-            message = "Your piping hot coffee is ready",
+            message = result > 30 ? "Your refreshing iced coffee is ready" : "Your piping hot coffee is ready",
             time = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:sszzz")
         };
 

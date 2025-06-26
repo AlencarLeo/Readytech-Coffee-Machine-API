@@ -15,6 +15,7 @@ C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\Unit
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\UnitTests.runtimeconfig.json
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\UnitTests.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\UnitTests.pdb
+C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\Castle.Core.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\Microsoft.OpenApi.dll
@@ -25,6 +26,7 @@ C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\Micr
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\Microsoft.TestPlatform.Utilities.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\Moq.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -105,6 +107,7 @@ C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\obj\Debug\net9.0\Unit
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\obj\Debug\net9.0\UnitTests.AssemblyInfoInputs.cache
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\obj\Debug\net9.0\UnitTests.AssemblyInfo.cs
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\obj\Debug\net9.0\UnitTests.csproj.CoreCompileInputs.cache
+C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\obj\Debug\net9.0\UnitTests.sourcelink.json
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\obj\Debug\net9.0\UnitTests.csproj.Up2Date
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\obj\Debug\net9.0\UnitTests.dll
 C:\Users\alenc\Desktop\ReadyTech\ReadyTech.Tests\UnitTests\obj\Debug\net9.0\refint\UnitTests.dll
