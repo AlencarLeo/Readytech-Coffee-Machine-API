@@ -1,6 +1,6 @@
 # Ignore build output directories
-/bin/
-/obj/
+**/bin/
+**/obj/
 
 # Ignore user-specific files
 .vs/
@@ -18,3 +18,8 @@ wwwroot/
 
 # Ignore global tools
 dotnet-tools.json
+
+# Ignore secrets and appsettings
+appsettings.Development.json
+appsettings.Production.json
+secrets.json
