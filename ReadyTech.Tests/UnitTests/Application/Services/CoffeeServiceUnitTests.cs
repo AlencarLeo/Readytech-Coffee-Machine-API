@@ -1,5 +1,7 @@
 ﻿using System.Reflection;
+
 using Moq;
+
 using ReadyTech.src.Application.Interfaces;
 using ReadyTech.src.Application.Services;
 
@@ -89,7 +91,7 @@ public class CoffeeServiceUnitTests
         Assert.Equal(418, result.StatusCode);
         Assert.Null(result.Response);
     }
-    
+
     [Fact]
     public async Task BrewCoffee_ShouldReturn500_WhenWeatherServiceReturnsNull()
     {

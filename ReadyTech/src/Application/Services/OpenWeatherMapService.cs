@@ -1,5 +1,6 @@
-using ReadyTech.src.Application.Interfaces;
 using System.Text.Json;
+
+using ReadyTech.src.Application.Interfaces;
 
 namespace ReadyTech.src.Application.Services;
 
