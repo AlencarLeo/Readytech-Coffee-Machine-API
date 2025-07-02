@@ -31,7 +31,7 @@ dotnet restore
 dotnet test
 
 # Run the application
-dotnet run --ReadyTech
+dotnet run --project ReadyTech
 ```
 
 ---
@@ -90,6 +90,6 @@ dotnet user-secrets set "WeatherApi:ApiKey" "your-api-key-here"
 Once the app is running, access interactive API docs at:
 
 ```
-http://localhost:{5153}/swagger/index.html
+http://localhost:5153/swagger/index.html
 ```
 
