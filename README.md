@@ -31,7 +31,7 @@ dotnet restore
 dotnet test
 
 # Run the application
-dotnet run --ReadyTech
+dotnet run --project ReadyTech
 ```
 
 ---
@@ -43,3 +43,12 @@ dotnet run --ReadyTech
   - Every **5th call** returns `503 Service Unavailable` (coffee machine out of coffee).
   - On **April 1st**, always returns `418 I'm a teapot` (no coffee on April Fool's Day).
 
+---
+
+## 📚 Swagger UI
+
+Once the app is running, access interactive API docs at:
+
+```
+http://localhost:5153/swagger/index.html
+```
