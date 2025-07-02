@@ -1,6 +1,7 @@
+using System.Net;
+
 using Moq;
 using Moq.Protected;
-using System.Net;
 
 namespace UnitTestsmock;
 
