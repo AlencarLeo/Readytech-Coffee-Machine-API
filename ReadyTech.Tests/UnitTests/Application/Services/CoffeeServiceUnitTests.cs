@@ -1,11 +1,19 @@
-﻿using Moq;
+﻿using System.Reflection;
+using Moq;
 using ReadyTech.src.Application.Interfaces;
 using ReadyTech.src.Application.Services;
 
 namespace UnitTests.Application.Services;
+
 public class CoffeeServiceUnitTests
 {
-    private CoffeeService CreateService(int temperature, bool isAprilFools = false)
+    private void ResetCallCount()
+    {
+        var field = typeof(CoffeeService).GetField("CallCount", BindingFlags.NonPublic | BindingFlags.Static);
+        field?.SetValue(null, 0);
+    }
+
+    private CoffeeService CreateService(int? temperature, bool isAprilFools = false)
     {
         var weatherMock = new Mock<IOpenWeatherMapService>();
         weatherMock.Setup(x => x.GetCurrentTemperatureAsync("Melbourne"))
@@ -15,7 +23,7 @@ public class CoffeeServiceUnitTests
         return service;
     }
 
-    private  class TestableCoffeeService : CoffeeService
+    private class TestableCoffeeService : CoffeeService
     {
         private readonly bool _isAprilFoolsOverride;
 
@@ -27,13 +35,14 @@ public class CoffeeServiceUnitTests
 
         protected override bool IsAprilFools() => _isAprilFoolsOverride;
     }
-    
+
     [Theory]
     [InlineData(20, "piping hot")]
     [InlineData(40, "refreshing iced")]
     public async Task BrewCoffee_Returns200_WithCorrectMessage_BasedOnTemperature(int temperature, string expectedMessage)
     {
         // Arrange
+        ResetCallCount();
         var service = CreateService(temperature);
 
         // Act
@@ -70,6 +79,7 @@ public class CoffeeServiceUnitTests
     public async Task BrewCoffee_ShouldReturn418_OnAprilFools(int temperature)
     {
         // Arrange
+        ResetCallCount();
         var service = CreateService(temperature, isAprilFools: true);
 
         // Act
@@ -79,4 +89,21 @@ public class CoffeeServiceUnitTests
         Assert.Equal(418, result.StatusCode);
         Assert.Null(result.Response);
     }
+    
+    [Fact]
+    public async Task BrewCoffee_ShouldReturn500_WhenWeatherServiceReturnsNull()
+    {
+        // Arrange
+        ResetCallCount();
+        var service = CreateService(null, isAprilFools: false);
+
+        // Act
+        var result = await service.BrewCoffee();
+
+        // Assert
+        Assert.Equal(500, result.StatusCode);
+        Assert.NotNull(result.Response);
+        Assert.Contains("Weather service is unavailable or invalid API key.", result.Response!.ToString());
+    }
+
 }

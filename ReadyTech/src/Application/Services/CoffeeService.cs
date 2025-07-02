@@ -22,6 +22,11 @@ public class CoffeeService : ICoffeeService
 
         var result = await _openWeatherMapService.GetCurrentTemperatureAsync("Melbourne");
 
+        if (result == null)
+        {
+            return (500, new { error = "Weather service is unavailable or invalid API key." });
+        }
+
         if (CallCount % 5 == 0)
         {
             return (503, null);
